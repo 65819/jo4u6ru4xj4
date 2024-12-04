@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>位移</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .input-container {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-group {
+            display: flex;
+            gap: 10px;
+        }
+        .input-group input {
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <h1>位移：</h1>
+    
+    <div class="input-container">
+        <label>TomoTherapy:</label>
+        <div class="input-group" id="group1">
+            <input type="number" value="0" step="1">
+            <input type="number" value="0" step="1">
+            <input type="number" value="0" step="1">
+            <input type="number" value="0" step="1">
+            <input type="number" value="0" step="1">
+            <input type="number" value="0" step="1">
+        </div>
+    </div>
+    
+    <div class="input-container">
+        <label>WFSynergy:</label>
+        <div class="input-group" id="group2">
+            <input type="number" value="0" step="0.1">
+            <input type="number" value="0" step="0.1">
+            <input type="number" value="0" step="0.1">
+            <input type="number" value="0" step="0.1">
+            <input type="number" value="0" step="0.1">
+            <input type="number" value="0" step="0.1">
+        </div>
+    </div>
+    
+    
+    </script>
+</body>
+</html>
